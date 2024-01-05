@@ -1,10 +1,12 @@
 # History files
 .Rhistory
 .Rapp.history
-
+.Rproj.user
 # Session Data files
 .RData
 .RDataTmp
+.Ruserdata
+.DS_Store
 
 # User-specific files
 .Ruserdata
@@ -47,3 +49,5 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+Chapter_three/style.css
