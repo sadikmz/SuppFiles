@@ -22,7 +22,7 @@ if (any(installed_packages == FALSE)) {
 }
 ```
 
-#  3. Data entry and specifying contrasts varaibles {.tabset .tabset-pills}
+#  3. Data entry and specifying contrasts varaibles
 
 ## 3.1 Importing and formatting 
 
@@ -135,7 +135,7 @@ as_tibble(enset_xvm_long)
 # tidy(enset_xvm_long) ###This can be used to assess the descriptive statistics of the data.
 ```
 
-# 4. Analysis of the area under the disease progression curve (AUDPS) {.tabset .tabset-pills}
+# 4. Analysis of the area under the disease progression curve (AUDPS)
 
 Here the data is summarized to visualize area under the curve using disease index (y) and time (x).
 
@@ -260,7 +260,7 @@ ggplot(aes(x=landrace, y=audps, color=landrace),data=audps_data__cld) + ###Plot 
   theme(legend.position="none")
 ```
 
-# 5. Analysis of disease development {.tabset .tabset-pills}  
+# 5. Analysis of disease development
 Linear mixed model [(Bates, 2010)](https://www.jstatsoft.org/article/view/v067i01/) used to handle the repeated measure data collected in this experiment for testing landrace specific influence on the area under the disease progression curve. Here, individual data of disease index which formatted earlier will be used. Diease index (di) is modeled on the fixed effects "landrace" and an interaction of landrace and time. Block is included as a random effect, meaning it is not of direct interest, but assumed to capture introduced variation, specifically by affecting the intercept.
 
 
@@ -351,7 +351,7 @@ ggplot(aes(x=landrace, y=di, color=landrace),data=di_long_cld) + ###Plot the ori
   theme(legend.position="none")
 ```
 
-# 6. Analysis of apparent infection rate (AIR) {.tabset .tabset-pills}
+# 6. Analysis of apparent infection rate (AIR)
 
 Apparent infection rate which is the speed at which an epidemic develops [(Meena et al., 2011)](https://www.tandfonline.com/doi/abs/10.1080/03235400903345281), was calculated as the slope of disease index development.
 
@@ -446,7 +446,7 @@ ggplot(aes(x=landrace, y=slop_api, color=landrace),data=slop_cld) + ###Plot the 
 ```
 
 
-# 7. Survival Analysis {.tabset .tabset-pills}
+# 7. Survival Analysis
 
 Survival analysis, also known as time-to-event analysis, builds on a different dataset, which can be generated from raw disease indices. Survival analysis provides a way to analyze the time-to-event recordings within one population. In the case of the data used here, what is of interest is an event that can be referred to as *death*. Correctly defining *death* in this context is crucial for the outcome of the analysis. *Death*, here, is defined as a subject reaching a certain disease index, from which it cannot recover. In this script the disease index that defines the threshold to *death* is called "cutoff".  We used a cutoff value of 2.23 (i.e 55.75% of the leaves showing disease symptoms due to Xvm) which is the high percent infection recorded for the least susceptible enset landrace tested here 'Mazia'.
 
@@ -747,7 +747,7 @@ Now, these can be plotted and inspected visually..
     theme(legend.position = "none")
 ```
 
-# 8. Manuscript figures {.tabset .tabset-pills}
+# 8. Manuscript figures
 
 The following scripts was used to generate figures in the manuscript.  
 ## Fig 5: Plot of actual AUDPS per landrace and, mean and CI of AUDPS 
