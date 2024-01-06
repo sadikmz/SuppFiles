@@ -1,4 +1,4 @@
-# <h1 style="text-align: center;"> [Evaluation of 20 enset (*Ensete ventricosum*) landraces for response to *Xanthomonas vasicola* pv. *musacearum* infection](https://github.com/sadikmz/SuppFiles/blob/main/Chapter_three/R_script.html) </h1>
+# <h1 style="text-align: center;"> Evaluation of 20 enset (*Ensete ventricosum*) landraces for response to *Xanthomonas vasicola* pv. *musacearum* infection</h1>
 
 
 # 1. General information 
