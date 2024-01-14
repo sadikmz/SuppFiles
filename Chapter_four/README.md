@@ -1,3 +1,3 @@
-# <h1 style="text-align: center;">What makes a banana false? Comparative genomics reveals how the Ethiopian orphan staple *Ensete ventricosum* differs from its related banana A and B sub-genomes</h1>
+# <h1 style="text-align: center;">Chromosome-level genomes reveal dynamics of structural variations and repetitive elements in domesticated and wild enset (*Ensete ventricosum*)</h1>
 
-Scripts are deposited [here.](https://github.com/sadikmz/EV_MAB_comp_genomics)
+Scripts are deposited [here.](https://github.com/sadikmz/enset_longreads)
